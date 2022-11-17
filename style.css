@@ -1,0 +1,66 @@
+.row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.col-1 {
+  height: 20px;
+  background: rgb(30, 4, 107);
+  flex: 0 1 8.33%;
+}
+.col-2 {
+  height: 20px;
+  background: rgb(10, 127, 200);
+  flex: 0 1 calc(16.67% - 20px);
+}
+.col-3 {
+  height: 20px;
+  background: rgb(55, 185, 75);
+  flex: 0 1 calc(25% - 20px);
+}
+.col-4 {
+  height: 20px;
+  background: rgb(188, 203, 26);
+  flex: 0 1 calc(33.33% - 20px);
+}
+.col-5 {
+  height: 20px;
+  background: rgb(107, 171, 219);
+  flex: 0 1 calc(41.67% - 20px);
+}
+.col-6 {
+  flex: 0 1 calc(50% - 20px);
+  background: rgb(236, 139, 20);
+  height: 20px;
+}
+.col-7 {
+  flex: 0 1 calc(58.33% - 20px);
+  background: rgb(236, 20, 20);
+  height: 20px;
+}
+.col-8 {
+  height: 20px;
+  background: rgb(170, 20, 234);
+  flex: 0 1 calc(66.67% - 20px);
+}
+.col-9 {
+  flex: 0 1 calc(75% - 20px);
+  background: rgb(23, 10, 21);
+  height: 20px;
+}
+.col-10 {
+  height: 20px;
+  background: rgb(224, 180, 207);
+  flex: 0 1 calc(83.33% - 20px);
+}
+.col-11 {
+  flex: 0 1 calc(91.67% - 20px);
+  background: rgb(106, 62, 7);
+  height: 20px;
+}
+.col-12 {
+  height: 20px;
+  background: rgb(149, 9, 93);
+  flex: 0 1 calc(100% - 20px);
+}
